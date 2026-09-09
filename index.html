@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Política de privacidad — Sudoku Ayatu</title>
+<style>
+  :root {
+    --bg: #1b1f2a;
+    --panel: #242938;
+    --text: #eef1f8;
+    --note: #a9b1cc;
+    --accent: #5b8def;
+    --border: #454c68;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: "Segoe UI", Roboto, Arial, sans-serif;
+    line-height: 1.6;
+    display: flex;
+    justify-content: center;
+    padding: 32px 16px 64px;
+  }
+  main {
+    width: 100%;
+    max-width: 680px;
+  }
+  h1 {
+    font-size: 26px;
+    margin-bottom: 4px;
+  }
+  .updated {
+    color: var(--note);
+    font-size: 13px;
+    margin-bottom: 28px;
+  }
+  h2 {
+    font-size: 18px;
+    margin-top: 32px;
+    color: var(--text);
+    border-bottom: 1px solid var(--border);
+    padding-bottom: 6px;
+  }
+  p, li {
+    color: var(--note);
+    font-size: 15px;
+  }
+  a {
+    color: var(--accent);
+  }
+  ul {
+    padding-left: 20px;
+  }
+  .card {
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 16px 20px;
+    margin-top: 16px;
+  }
+  footer {
+    margin-top: 40px;
+    font-size: 13px;
+    color: var(--note);
+  }
+</style>
+</head>
+<body>
+<main>
+  <h1>Política de privacidad de Sudoku Ayatu</h1>
+  <p class="updated">Última actualización: 9 de septiembre de 2026</p>
+
+  <p>
+    Esta política de privacidad se aplica a la aplicación <strong>Sudoku Ayatu</strong>
+    (Android y web), desarrollada por Javier Iglesias como proyecto personal.
+  </p>
+
+  <div class="card">
+    <strong>Resumen:</strong> Sudoku Ayatu no recopila, almacena en servidores propios
+    ni comparte ningún dato personal. Todo el progreso del juego se guarda únicamente
+    en tu propio dispositivo.
+  </div>
+
+  <h2>Qué datos se guardan y dónde</h2>
+  <p>La aplicación funciona completamente en tu dispositivo, sin conexión a ningún
+    servidor propio. Los siguientes datos se guardan solo de forma local (mediante
+    <em>localStorage</em> del navegador o del componente WebView de Android), y nunca
+    se envían a ningún sitio:</p>
+  <ul>
+    <li>El estado y progreso de las partidas guardadas (tablero, notas, tiempo, errores)</li>
+    <li>El historial de tiempos del ranking</li>
+    <li>La preferencia de sonido activado/desactivado</li>
+    <li>El último nivel de dificultad jugado</li>
+  </ul>
+  <p>Estos datos permanecen exclusivamente en tu dispositivo. Si desinstalas la
+    aplicación o borras los datos del navegador, se eliminan por completo. El
+    desarrollador no tiene acceso a esta información en ningún momento.</p>
+
+  <h2>Datos personales</h2>
+  <p>La aplicación no requiere registro ni cuenta de usuario, no solicita nombre,
+    correo electrónico, ubicación ni ningún otro dato personal, y no utiliza
+    identificadores de publicidad ni herramientas de analítica o seguimiento.</p>
+
+  <h2>Enlace de donación (Stripe)</h2>
+  <p>La aplicación incluye, de forma opcional y visible, un enlace para quien desee
+    hacer una donación voluntaria al desarrollador. Al pulsarlo, se abre en el
+    navegador del sistema una página de pago gestionada por
+    <a href="https://stripe.com" target="_blank" rel="noopener">Stripe</a>, fuera de
+    la aplicación. La aplicación en sí no procesa, ve ni almacena ningún dato de pago
+    o tarjeta: esa información la gestiona Stripe directamente, conforme a su propia
+    <a href="https://stripe.com/es/privacy" target="_blank" rel="noopener">política de
+    privacidad</a>. Esta donación es completamente opcional y no desbloquea ni
+    modifica ninguna función del juego.</p>
+
+  <h2>Permisos y publicidad</h2>
+  <p>La aplicación no muestra anuncios, no incluye compras dentro de la app y no
+    solicita permisos especiales del sistema más allá de los necesarios para
+    funcionar como aplicación local.</p>
+
+  <h2>Menores de edad</h2>
+  <p>Sudoku Ayatu es un juego apto para todos los públicos. Al no recopilar ningún
+    dato de ningún usuario, tampoco se recopilan datos de menores.</p>
+
+  <h2>Cambios en esta política</h2>
+  <p>Si esta política cambia en el futuro, se actualizará esta misma página con una
+    nueva fecha de actualización.</p>
+
+  <h2>Contacto</h2>
+  <p>Para cualquier duda sobre esta política de privacidad, puedes escribir a
+    <a href="mailto:javier.iglesias10@gmail.com">javier.iglesias10@gmail.com</a>.</p>
+
+  <footer>Sudoku Ayatu — Javier Iglesias</footer>
+</main>
+</body>
+</html>
